@@ -364,8 +364,7 @@ export default class DragSortableView extends Component {
                                 }}
                             >
                                 {this.props.renderItem(item.data, index, {
-                                    backgroundColor:
-                                        this.state && this.state.seletedIndex == index ? "#e5e5e5" : "white"
+                                    backgroundColor: this.state && this.state.seletedIndex == index ? "#e5e5e5" : "white"
                                 })}
                             </TouchableOpacity>
                         </Animated.View>
